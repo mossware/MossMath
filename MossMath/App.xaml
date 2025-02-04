@@ -1,0 +1,16 @@
+﻿<Application x:Class="MossMath.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MossMath"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+          <Style TargetType="{x:Type Window}">
+             <Setter Property="Icon" Value="/Assets/app.ico"/>
+              <Setter Property="Background">
+                  <Setter.Value>
+                      <ImageBrush ImageSource="pack://application:,,,/Assets/background.png" Stretch="Fill"/>
+                   </Setter.Value>
+              </Setter>
+           </Style>
+    </Application.Resources>
+</Application>
